@@ -1,0 +1,116 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Righteous&family=Sarala&display=swap");
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Sarala", sans-serif;
+    background-color: #1c1c1c;
+}
+
+/* container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* Header */
+header {
+    background-color: #48c5ce;
+    color: white;
+    text-align: center;
+}
+
+
+/* Title */
+.title {
+    font-size: 30px;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    background-image: url(../img/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* FormContainer */
+.formContainer {
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 15px;
+    float: right;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+/* form */
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Estilo aplicado somente no select */
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../img/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+/* Button */
+.button {
+    color: white;
+    background-color: #48c5ce;
+    font-size: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+/* Picture > img */
+.picture {
+    width: 160px;
+}
+
+/* text */
+.description {
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    padding: 30px;
+    text-align: left;
+
+}
+
+.description-text {
+    margin-bottom: 20px;
+}
+
+.description-text-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
